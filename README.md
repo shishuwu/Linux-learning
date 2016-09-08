@@ -4,12 +4,12 @@
 ### apt-get
 Advanced Package Tool
 	
-	$sudo apt-get xxx
+    $sudo apt-get xxx
 
 
 * Get latest packages list
 		
-		$sudo apt-get update
+        $sudo apt-get update
 
 ### shell
 * Update read-only file
