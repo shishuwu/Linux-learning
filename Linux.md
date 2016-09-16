@@ -33,7 +33,10 @@ Advanced Package Tool
 			ssh username@ip_address, and password. e.g.:
 			
 			ssh shishuwu@192.168.231.129
-			
+
+* Find directory			
+	
+		whereis Nginx
 
 ### Best Practice
 * Shell error solution:
