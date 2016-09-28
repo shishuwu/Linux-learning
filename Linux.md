@@ -38,6 +38,28 @@ Advanced Package Tool
 	
 		whereis Nginx
 
+* Search in Vim
+
+		If you are working in Ubuntu,follow the steps:
+		
+		Press / and type word to search
+		- To search in forward press 'SHIFT' key with  * key
+		- To search in backward press 'SHIFT' key with # key
+
+* Copy file from windows to linux
+
+		scp ms_device-1.0-SNAPSHOT.jar shishuwu@192.168.231.130:/home/shishuwu/Downloads/ms_device-1.0-SNAPSHOT.jar
+
+* Unset Proxy
+
+		unset http_proxy
+		unset ftp_proxy
+		unset https_proxy
+
+* Find process
+
+		$ ps ax | grep firefox
+
 ### Best Practice
 * Shell error solution:
    

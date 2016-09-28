@@ -1,6 +1,11 @@
 # Docker Learning
 ## TODO
-* 改下ym?源，方便Build
+
+
+
+
+
+		
 
 ## Definition
 * Docker Structure
@@ -33,6 +38,10 @@
 			docker-machine env
 			eval $(docker-machine env)
 
+### Prerequisites
+* 国外Docker Hub的镜像获取太慢了
+	* [配置 Docker 加速器](https://www.daocloud.io/mirror#accelerator-doc)
+
 ## Commands
 * You can run docker commands unless to switch to root 
 
@@ -51,9 +60,9 @@
 
 		docker exec -it instanceName /bin/bash //到instance里面去跑bash
 
-
-		docker rm contianer_id //id可以fuzzy(至少3个字符)
 		
+		docker rm contianer_id //id可以fuzzy(至少3个字符)
+		docker rmi image_id
 	
 
 ## Best Practices
