@@ -29,6 +29,8 @@
 ### For Linux
 * How to install Dockers on
 	* [Ubuntu](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
+
+	> Note: [Ubuntu 16.04安装使用Docker](http://blog.csdn.net/mickjoust/article/details/51578629)
 	
 
 ### For Windows/Mac
@@ -60,8 +62,9 @@
 
 		docker exec -it instanceName /bin/bash //到instance里面去跑bash
 
-		
-		docker rm contianer_id //id可以fuzzy(至少3个字符)
+		docker stop container_id //id可以fuzzy(至少3个字符)		
+
+		docker rm container_id //id可以fuzzy(至少3个字符)
 		docker rmi image_id
 	
 
