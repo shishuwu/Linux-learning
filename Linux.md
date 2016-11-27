@@ -60,6 +60,13 @@ Advanced Package Tool
 
 		$ ps ax | grep firefox
 
+
+## Debian
+### Shell
+* Debian does not support "sudo" by default
+	* Install "sudo" related tools OR 
+	* Use: su root (switch to root account, then do other operations)
+
 ### Best Practice
 * Shell error solution:
    
