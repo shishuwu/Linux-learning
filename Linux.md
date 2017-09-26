@@ -5,7 +5,7 @@ Use command to connect to Linux system remotely.
 
 	$ ssh username@ip_address
 
-> Note: must specify a user name as the login user. Otherwise, it will your client system default user name.
+> Note: must specify a user name as the login user. Otherwise, it will use your client system default user name.
 
 ## Ubuntu
 ### apt-get
