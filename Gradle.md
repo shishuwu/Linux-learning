@@ -1,4 +1,5 @@
 # Gradle Learning
+**[用Gradle构建Spring Boot项目](http://www.cnblogs.com/davenkin/p/gradle-spring-boot.html)** 【可参照此项目做一遍】
 
 [Gradle 完整指南（Android）](http://www.jianshu.com/p/9df3c3b6067a)
 
@@ -6,18 +7,34 @@
 * Groovy 
 * Structure
 
-		|--build.gradle (像maven的parent pom)
-		|--settings.gradel
-		|--app
-			|--build.gradle
-
+		├── README.md
+		├── build.gradle (类比maven parent pom)
+		├── gradle
+		│   └── wrapper (本地gradle环境，初创者和gradle wrapper生成【指定版本】，后续别人用无需再下gradle)
+		│       ├── gradle-wrapper.jar
+		│       └── gradle-wrapper.properties
+		├── gradlew (script for linux)
+		├── gradlew.bat (scipt for windows: gradle xx等同于./gradlw.bat xx)
+		└── src
+		    ├── main
+		    │   └── java
+		    │       └── shishuwu
+		    │           ├── Application.java
+		    │           ├── HelloController.java
+		    │           └── HelloWorld.java
+		    └── test
+		        └── java
 
 
 ## Command Line
 * `gradle tasks`: 显示所有tasks
-* 
+* `gradle build`: 依赖java
 
 		
+
+## Advanced
+### Customized Task
+
 
 
 ## Samples
