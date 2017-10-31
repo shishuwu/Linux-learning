@@ -14,14 +14,35 @@
 
 
 ## Command Line
+* `gradle tasks`: 显示所有tasks
+* 
+
+		
+
 
 ## Samples
 Find samples from: `./gradle/samples`
 
+### smallest sample
+* create `build.gradle`, input:
+	
+		task helloWorld << {
+		   println "Hello World!"
+		}
+
+* run command: `gradle helloWorld`
+	
+		:helloWorld
+		Hello World!
+		
+		BUILD SUCCESSFUL
+		
+		Total time: 2.544 secs
+
 
 ## Troubling Shootings
 ### Proxy settings
-Go to `USER_HOME/.gradle`, create `gradle.properties`, and the content is like following:
+Go to `USER_HOME/.gradle`, create file `gradle.properties`, and the content is like following:
 
 	# proxy - http
 	systemProp.http.proxyHost=HostAddress
@@ -38,3 +59,8 @@ Go to `USER_HOME/.gradle`, create `gradle.properties`, and the content is like f
 	systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost
 
 > Note: Official reference [document](https://docs.gradle.org/current/userguide/build_environment.html#sec:accessing_the_web_via_a_proxy).
+
+
+## Appendix
+* [Gradle学习系列](http://www.cnblogs.com/davenkin/p/gradle-learning-1.html)
+	* Github: git clone https://github.com/davenkin/gradle-learning.git
