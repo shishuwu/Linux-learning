@@ -10,7 +10,7 @@
 		├── README.md
 		├── build.gradle (类比maven parent pom)
 		├── gradle
-		│   └── wrapper (本地gradle环境，初创者和gradle wrapper生成【指定版本】，后续别人用无需再下gradle)
+		│   └── wrapper (本地gradle环境，初创者引入，需上传版本库)
 		│       ├── gradle-wrapper.jar
 		│       └── gradle-wrapper.properties
 		├── gradlew (script for linux)
@@ -25,7 +25,10 @@
 		    └── test
 		        └── java
 
-
+> Note:
+>  
+> * 推荐使用wrapper: 1. 可使用相同版本gradle 2. 其它使用者无须再安装gradle
+> 
 ## Command Line
 * `gradle tasks`: 显示所有tasks
 * `gradle build`: 依赖java
