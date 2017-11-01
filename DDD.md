@@ -25,7 +25,7 @@
 		* 事务需求
 
 
-![Hexagonal](.\resource\DDD\Architecture.png)
+![Hexagonal](./resource/DDD/Architecture.png)
 
 
 ## DDD战术设计
