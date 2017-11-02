@@ -1,7 +1,10 @@
 # DDD Learning
 [领域驱动设计(DDD)实现之路](http://www.cnblogs.com/davenkin/p/road-to-ddd.html)
+
 ## DDD
-与其每天钻在那些永远也学不完的技术中，何不将我们的关注点向软件系统所提供的**业务价值**方向思考思考，这也正是DDD所试图解决的问题。
+与其每天钻在那些<del>永远也学不完的技术</del>中，何不将我们的关注点向软件系统所提供的**业务价值**方向思考思考，这也正是DDD所试图解决的问题。
+
+![overview](./resource/DDD/Overview.png)
 
 ## DDD战略设计
 ### 领域、子域、核心域
@@ -39,6 +42,7 @@
  
 ### 实体 值对象
 * 有ID | 无ID
+* mutable | immutable
 
 ### 聚合
 * 聚合是持久化的基本单位
@@ -55,5 +59,6 @@
 ### 资源库
 ### 领域服务
 
-## 聚合
 
+## Reference
+* [Domain Driven Desgin - wiki](https://en.wikipedia.org/wiki/Domain-driven_design)
