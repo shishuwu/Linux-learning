@@ -1,6 +1,7 @@
 # DDD Learning
 [领域驱动设计(DDD)实现之路](http://www.cnblogs.com/davenkin/p/road-to-ddd.html)
 
+
 ## DDD
 与其每天钻在那些<del>永远也学不完的技术</del>中，何不将我们的关注点向软件系统所提供的**业务价值**方向思考思考，这也正是DDD所试图解决的问题。
 
@@ -20,6 +21,13 @@
 将一个限界上下文中的所有概念，包括名词、动词和形容词全部集中在一起，我们便为该限界上下文创建了一套通用语言。通用语言是一个团队所有成员交流时所使用的语言，业务分析人员、编码人员和测试人员都应该直接通过通用语言进行交流。
 
 ### 架构风格
+
+* 数据中心架构	
+![数据中心架构](./resource/DDD/data-model.png)
+
+* 领域中心架构
+![领域模型](./resource/DDD/domain-model.png)
+ 
 * Ports + Adapters
 	* 领域模型位于应用程序的核心部分
 	* 外界与领域模型的交互都通过应用层完成
@@ -29,6 +37,7 @@
 
 
 ![Hexagonal](./resource/DDD/Architecture.png)
+
 
 
 ## DDD战术设计
