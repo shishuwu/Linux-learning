@@ -64,10 +64,17 @@
 	* 采用**发布领域事件**的方式通知相应的聚合。
 	* 此时的数据一致性便从*事务一致性*变成了**最终一致性**（Eventual Consistency）。
 	* 领域事件：名+动过去分词 （OrderSubmitted）
+	> Note: 单个集合内部：事务ACID； 多个集合之间：最终一致性
  
 ### 资源库
 ### 领域服务
 
 
+## 其它
+### 事件驱动 ED
+* 管道 + 过滤器
+* Saga 长时处理过程
+
 ## Reference
 * [Domain Driven Desgin - wiki](https://en.wikipedia.org/wiki/Domain-driven_design)
+* [深度长文:我对CQRS/EventSourcing架构的思考](http://www.uml.org.cn/zjjs/201609221.asp)
